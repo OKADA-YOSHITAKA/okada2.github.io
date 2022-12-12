@@ -1,0 +1,70 @@
+/* 点滅 */
+.blink {
+    animation: blinking 1s ease-in-out infinite alternate;
+}
+
+@keyframes blinking {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: rgb(220, 20, 20);
+    height: 1.0cm;
+    width: 15cm;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1cm;
+    font-weight: bold;
+    color: crimson;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1cm;
+    font-weight: bold;
+    color: crimson;
+}
+
+h4 {
+    text-align: left;
+    font-size: 1cm;
+    font-weight: bold;
+    color: rgb(20, 220, 193);
+}
+
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+h5 {
+    background-color: rgb(70, 0, 128);
+    height: 1.5cm;
+    width: 16cm;
+    text-align: left;
+    font-size: 1cm;
+    color: rgb(20, 220, 80);
+}
+
+h6 {
+    font-size: 0.7cm;
+    height: 1.0cm;
+    /* width: 15cm; */
+}
+
+h8 {
+    font-size: 1.0cm;
+    height: 1.0cm;
+    /* width: 15cm; */
+}
